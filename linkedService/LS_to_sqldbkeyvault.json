@@ -1,0 +1,11 @@
+{
+	"name": "LS_to_sqldbkeyvault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://sqldatabasekeyvault2000.vault.azure.net/"
+		}
+	}
+}

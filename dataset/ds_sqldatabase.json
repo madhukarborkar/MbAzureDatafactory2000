@@ -1,0 +1,17 @@
+{
+	"name": "ds_sqldatabase",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_sqldatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "Customer_backup"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

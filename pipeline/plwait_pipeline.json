@@ -1,0 +1,17 @@
+{
+	"name": "plwait_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "change the name",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
+		"annotations": []
+	}
+}

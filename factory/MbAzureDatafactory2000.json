@@ -1,0 +1,9 @@
+{
+	"name": "MbAzureDatafactory2000",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b215fa59-3dfe-4821-9032-1306c3c65070",
+		"tenantId": "b2125b15-a041-4485-91a0-d889351426b1"
+	}
+}
