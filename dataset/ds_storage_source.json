@@ -1,5 +1,5 @@
 {
-	"name": "DS_mdstg_account",
+	"name": "ds_storage_source",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_mbstorage_account",
@@ -10,13 +10,12 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "archive"
+				"fileSystem": "data"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
 		"schema": []
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }
