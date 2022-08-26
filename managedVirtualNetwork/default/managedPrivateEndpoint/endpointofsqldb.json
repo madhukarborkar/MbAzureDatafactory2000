@@ -1,7 +1,0 @@
-{
-	"name": "endpointofsqldb",
-	"properties": {
-		"privateLinkResourceId": "/subscriptions/3e5bf992-046b-4630-95ff-04a94851fc29/resourceGroups/data-grp/providers/Microsoft.Sql/servers/mbsqlserver1982",
-		"groupId": "sqlServer"
-	}
-}
